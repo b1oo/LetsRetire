@@ -1,0 +1,112 @@
+/* style.css */
+body {
+    font-size: 16px;
+    margin: 3px;
+    letter-spacing: 5px; /* Corrected missing semicolon */
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px;
+    letter-spacing: 2px; /* Corrected missing semicolon and enhanced letter spacing */
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #f8f9fa;
+}
+
+header .logo {
+    font-size: 44px;
+    font-weight: bold;
+    color: #228B22; /* Forest Green for the logo */
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+a {
+    color:#228B22;
+}
+
+h1 {
+    display: block;
+    font-size: 8em;
+    margin-top: 0.44em;
+    margin-bottom: 0.11em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #228B22; /* Forest Green for H1 headers */
+}
+
+h2 {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0.11em;
+    margin-bottom: 0.11em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #228B22; /* Forest Green for H2 headers */
+}
+    
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px 10%;
+}
+
+.content-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.content-info {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-image img {
+        max-width: 100%;
+    }
+}
