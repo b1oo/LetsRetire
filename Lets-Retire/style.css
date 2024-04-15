@@ -64,7 +64,7 @@ nav ul.nav-list li a {
 h1, h2 {
     margin: 0; /* Removed unnecessary margins for uniformity */
     padding: 10px 0; /* Added padding for better spacing */
-    color: #a1e6a1;
+    color: #228B22;
 }
 
 h1 {
@@ -78,13 +78,6 @@ h2 {
     font-weight: bold;
 }
 
-h2 a:hover {
-    background-color: ##a1e6a1; /* Change to your preferred hover background color */
-}
-
-a:visited {
-    color: #00a300; 
-}
 footer {
     text-align: center;
     padding: 20px;
