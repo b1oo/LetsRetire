@@ -44,6 +44,7 @@ nav ul.nav-list li a {
     align-items: center;
     gap: 20px;
     padding: 20px 0;
+    font-size: 1.1em;
 }
 
 .content-info {
@@ -64,13 +65,19 @@ nav ul.nav-list li a {
 h1, h2 {
     margin: 0; /* Removed unnecessary margins for uniformity */
     padding: 10px 0; /* Added padding for better spacing */
-    color: #a1e6a1;
+    color: green;
 }
 
+/* style.css */
 h1 {
     font-size: 6.5em;
     font-weight: bold;
+    color: #228B22 !important; /* Ensuring the color is applied */
+    opacity: 1 !important; /* Ensures full opacity */
+    filter: none !important; /* Removes any filters */
+    text-shadow: none !important; /* Removes any text shadows */
 }
+
 
 h2 {
     font-size: 2em;
@@ -78,18 +85,20 @@ h2 {
     font-weight: bold;
 }
 
-h2 a:hover {
-    background-color: ##a1e6a1; /* Change to your preferred hover background color */
+/* style.css */
+.h2-link, .h2-link:visited {
+    color: #228B22; /* Initial color for unvisited link */
+    text-decoration: none; /* Optional: removes underline from link */
 }
 
-a:visited {
-    color: #00a300; 
+.h2-link:visited {
+    color: #17571b; /* Color for visited links */
 }
 footer {
     text-align: center;
     padding: 20px;
     background-color: #f8f9fa;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 @media (max-width: 768px) {

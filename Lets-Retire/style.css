@@ -64,13 +64,19 @@ nav ul.nav-list li a {
 h1, h2 {
     margin: 0; /* Removed unnecessary margins for uniformity */
     padding: 10px 0; /* Added padding for better spacing */
-    color: #228B22;
+    color: green;
 }
 
+/* style.css */
 h1 {
     font-size: 6.5em;
     font-weight: bold;
+    color: #228B22 !important; /* Ensuring the color is applied */
+    opacity: 1 !important; /* Ensures full opacity */
+    filter: none !important; /* Removes any filters */
+    text-shadow: none !important; /* Removes any text shadows */
 }
+
 
 h2 {
     font-size: 2em;
