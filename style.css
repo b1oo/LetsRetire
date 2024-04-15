@@ -91,13 +91,14 @@ footer {
 }
 
 .content-image img {
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     height: auto;
 }
 
 .content-info {
     flex: 1;
+    padding: 20px 10%;
 }
 
 @media (max-width: 768px) {
